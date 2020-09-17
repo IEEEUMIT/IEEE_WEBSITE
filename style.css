@@ -1,0 +1,77 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+body{
+	
+	background-size:cover;
+	background-position:center; 
+	font-family : sans-serif ;
+}
+#nav-bar
+{
+
+	position : sticky;
+	top : 0;
+	z-index : 10;
+
+}
+.navbar{
+
+	background-color: #FFFF;
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+
+
+}
+.navbar-nav li
+{
+    
+	padding:0 10px;
+
+}
+.navbar-nav li a
+{
+
+	color:#000 !important;
+	font-weight: 600px;
+	float :right;
+	text-align: left;
+
+
+}
+.fa-bars{
+
+	color:#000;
+	font-size:30px ! important;
+}
+.navbar-toggler{
+
+
+	outline: none  ! important;
+}
+#banner{
+
+
+	position:absolute;
+
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+	
+
+}
+.promo-title{
+
+	 font-size:50px;
+	 font-family:"Lucida Console";
+	 clear: both; 
+	 display: inline-block; 
+	 overflow: hidden; 
+	 white-space: nowrap;
+}
