@@ -1,0 +1,41 @@
+.main
+{
+     min-height: 40vh ;
+     
+}
+.nav
+{
+    position: absolute;
+    margin: 0;
+    height: 70px;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+}
+.leftnav
+{
+    height: 100%;
+    width: 20%;
+    background-color: lightblue;
+}
+.rightnav
+{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navtext
+{
+  
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: darken(rgb(245, 220, 233), 10%);
+
+}
